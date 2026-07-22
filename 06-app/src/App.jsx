@@ -16,13 +16,15 @@ const App = () => {
   function decreaseNum(){
     setNum(num-1);
   }
+  // Array Object change deconsruction 
   function btn_click (){
+   //  setArr_obj(prev=>({prev,age:77}))  -- Another way to change array values
     const setObj = {...arr_obj};
     setObj.user = 'Piyush Sanjay Shinde'
     setObj.age = 33
     setArr_obj(setObj);
   }
-
+  
   return (
     <div>
       <h1>UserName: {user}</h1>
