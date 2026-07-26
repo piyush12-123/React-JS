@@ -47,10 +47,10 @@ const App = () => {
   }, [filterPriority, logs])
 
   return (
-    <div className='p-5 max-w-lg mx-auto'>
+    <div className= 'p-5 max-w-lg mx-auto'>
    
       <form onSubmit={submitHandler} className='border-b pb-5'>
-        <h1 className='font-bold text-2xl mb-4'>Task Timer & Log Tracker</h1>
+        <h1 className='font-bold text-3xl mt-4 mb-4'>Task Timer & Log Tracker</h1>
 
         <div className='mb-3'>
           <input 
